@@ -95,7 +95,7 @@ st.write(totalen)
 plt.figure(figsize=(4,4))
 pychart = pd.Series([comparelen1,comparelen2],[selectedteam1,selectedteam2])
 if totalen != 0:
-    st.write(pychart)
+    
     pychart.plot(kind="pie",autopct="%.1f%%",startangle=90,textprops={'fontsize':16,'color':'green','fontweight':'bold','fontstyle':'italic'})
     st.pyplot(plt,width=450)
     
