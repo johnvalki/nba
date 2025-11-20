@@ -89,7 +89,7 @@ c7.metric("matches played by each team",totalen)
 c8.metric(f"games won by {selectedteam1:}",comparelen1)
 c9.metric(f"games won by {selectedteam2:}",comparelen2)
 plt.legend()
-st.write(totalen)
+
 plt.figure(figsize=(4,4))
 pychart = pd.Series([comparelen1,comparelen2],[selectedteam1,selectedteam2])
 if totalen != 0:
