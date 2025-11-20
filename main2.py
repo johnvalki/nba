@@ -82,8 +82,7 @@ st.write(compgameswon1)
 
 compgameswon2 = compare.loc[compare["winner"]==id2]
 comparelen2 = len(compgameswon2)
-st.write(comparelen2)
-st.write(compgameswon2)
+
 c7,c8,c9 = st.columns(3)
 
 totalen = len(compare)
