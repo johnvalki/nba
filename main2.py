@@ -77,8 +77,7 @@ compare = data.loc[((data["hometeamName"]==selectedteam1) & (data["awayteamName"
 compgameswon1 = compare.loc[compare["winner"]==id1]
 comparelen1 = len(compgameswon1)
 
-st.write(comparelen1)
-st.write(compgameswon1)
+
 
 compgameswon2 = compare.loc[compare["winner"]==id2]
 comparelen2 = len(compgameswon2)
