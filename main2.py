@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 from matplotlib import pyplot as plt
 st.set_page_config(layout="wide")
-st.set_page_config(page_title="NBA teams comparison",title= "NBA teams comparison")
+st.set_page_config(page_title="NBA teams comparison", stitle= "NBA teams comparison")
 data = pd.read_csv("nba.csv")
 teamnames = sorted(data["hometeamName"].unique())
 
