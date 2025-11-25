@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Home")
-page1 = st.Page("pages/main1.py",title="NBA teams comparison")
-page2 = st.Page("main2.py",title="something")
+page1 = st.Page("pages/main1.py",title="something")
+page2 = st.Page("main2.py",title="NBA teams comparison")
 pages = [page1,page2]
 nav = st.navigation(pages,position='top')
 nav.run()
